@@ -15,22 +15,10 @@ h3 {
 button {
     height: 50px;
     width: 50px;
-
-    /* background: lightblue; */
-}
-
-.mat-card-actions {
-    /* background: lightgreen; */
-    /* height: 50px; */
 }
 
 a {
-    /* background: lightseagreen; */
     margin-left: 1%;
-}
-
-* {
-    /* border: 1px solid; */
 }
 
 .centerBoth {
