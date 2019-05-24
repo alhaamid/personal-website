@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* @import "~@angular/material/prebuilt-themes/deeppurple-amber.css"; */
+/* @import "~@angular/material/prebuilt-themes/pink-bluegrey.css"; */
+/* @import "~@angular/material/prebuilt-themes/purple-green.css"; */
+
+* {
+    --primary-color: #01411c;
+    --hover-color: #13aff0;
+    --navbar-height: 50px;
+
+    /* --primary-color: #01411c;
+    --background-color: #DFE0E2;
+    --hover-color: #13aff0; */
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Open Sans';
+}
+
+.main-page {
+    min-width: 400px;
+    width: 60%;
+
+    margin: 4em 8em;
+}

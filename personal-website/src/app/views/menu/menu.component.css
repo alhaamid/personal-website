@@ -1,0 +1,63 @@
+* {
+    /* border: 1px solid; */
+    color: white;
+}
+
+.menu {
+    background: var(--primary-color);
+    /* overflow: auto; */
+    height: var(--navbar-height);
+}
+
+.left-aligned {
+    /* background: lightgreen; */
+    float: left;
+    height: inherit;
+    margin: 0 0 0 10px;
+}
+
+.right-aligned {
+    /* background: lightblue; */
+    float: right;
+    height: inherit;
+    margin: 0 10px 0 0;
+}
+
+.link-box {
+    width: 50px;
+    display: table;
+}
+
+.link-box a {
+    text-decoration-line: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.link-box a:hover {
+    color: var(--hover-color);
+}
+
+.current-page {
+    color: var(--hover-color);
+}
+
+.material-icons {
+    color: white;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}

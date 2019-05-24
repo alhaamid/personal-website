@@ -1,0 +1,49 @@
+.mat-card {
+    height: fit-content;
+    width: fit-content;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icons {
+    
+    color: var(--primary-color);
+}
+
+button {
+    height: 50px;
+    width: 50px;
+
+    /* background: lightblue; */
+}
+
+.mat-card-actions {
+    /* background: lightgreen; */
+    /* height: 50px; */
+}
+
+a {
+    /* background: lightseagreen; */
+    margin-left: 1%;
+}
+
+* {
+    /* border: 1px solid; */
+}
+
+.centerBoth {
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.avatar {
+    background-image: url('/assets/dp.jpg');
+    background-size: cover;
+  }
