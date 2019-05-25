@@ -1,12 +1,13 @@
 <div class="main-page">
+    <section class="mat-typography">
     <mat-card>
         <mat-card-header>
             <div mat-card-avatar class="avatar"></div>
             <mat-card-title>
-                <h4>{{name}}</h4>
+                {{this.gs.NAME}}
             </mat-card-title>
             <mat-card-subtitle>
-                <h3>{{job}} at {{company}}</h3>
+                {{this.gs.JOB}} at {{this.gs.COMPANY}}
             </mat-card-subtitle>
         </mat-card-header>
         <img mat-card-image src="https://lh5.googleusercontent.com/-QnIl6M8rHeM/AAAAAAAAAAI/AAAAAAAAO1Q/CEsjKbnptXA/photo.jpg">
@@ -34,4 +35,5 @@
             </a>
         </mat-card-actions>
     </mat-card>
+    </section>
 </div>

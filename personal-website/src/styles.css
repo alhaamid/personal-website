@@ -22,7 +22,8 @@
 
 .main-page {
     min-width: 400px;
-    width: 60%;
+    width: 70%;
 
     margin: 4em 8em;
+    /* background: lightseagreen */
 }

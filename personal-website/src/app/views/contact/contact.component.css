@@ -3,12 +3,11 @@
     width: fit-content;
 }
 
-h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+.mat-card-subtitle {
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.icons {
-    
+.icons, .mat-card-header, .mat-card-subtitle {
     color: var(--primary-color);
 }
 
