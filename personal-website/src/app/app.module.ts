@@ -7,12 +7,9 @@ import { MenuComponent } from './views/menu/menu.component';
 import { HomeComponent } from './views/home-page/home/home.component';
 import { GlobalsService } from './services/globals.service';
 import { ContactComponent } from './views/contact/contact.component';
-
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-
-import { IntroComponent } from './views/home-page/home/intro/intro.component';
 import { ProjectsComponent } from './views/home-page/home/projects/projects.component';
 import { EducationComponent } from './views/home-page/home/education/education.component';
 import { WorkComponent } from './views/home-page/home/work/work.component';
@@ -28,7 +25,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MenuComponent,
     HomeComponent,
     ContactComponent,
-    IntroComponent,
     ProjectsComponent,
     EducationComponent,
     WorkComponent,

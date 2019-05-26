@@ -9,7 +9,7 @@ import { GlobalsService } from 'src/app/services/globals.service';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private titleService: Title, private gs: GlobalsService) { 
+  constructor(private titleService: Title, public gs: GlobalsService) { 
     this.titleService.setTitle(gs.CONTACT_TITLE);
   }
 
