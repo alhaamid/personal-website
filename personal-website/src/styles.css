@@ -21,10 +21,10 @@
 }
 
 .main-page {
-    min-width: 400px;
-    width: 70%;
-
-    margin: 4em 8em;
+    margin: auto;
+    /* min-width: 400px; */
+    width: 90%;
+    padding: 5%;
     /* background: lightseagreen */
 }
 

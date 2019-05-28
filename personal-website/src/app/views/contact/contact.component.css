@@ -17,7 +17,7 @@ button {
 }
 
 a {
-    margin-left: 1%;
+    /* margin-left: .05%; */
 }
 
 .centerBoth {
@@ -31,6 +31,6 @@ a {
 }
 
 .avatar {
-    background-image: url('/assets/dp.jpg');
+    background-image: url('/assets/dp.png');
     background-size: cover;
   }
